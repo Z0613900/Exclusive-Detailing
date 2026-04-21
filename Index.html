@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Detailing - Premium Auto Care in Bakersfield, CA</title>
+    <link rel="stylesheet" href="Base.css">
+</head>
+<body>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tagline">Premium Auto Care</span>
+            <h1 class="hero-title">
+                <span>Exclusive</span>
+                <span>Detailing</span>
+            </h1>
+            <p class="hero-description">Precision craftsmanship that restores your vehicle's facotry shine.</p>
+            <a href="#booking" class="btn btn-primary">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>Comprehensive care for every surface of your vehicle.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="exterior.png" alt="Exterior Detailing">
+                    </div>
+                    <div class="service-icon">✨</div>
+                    <h3>Exterior Detail</h3>
+                    <p>The first thing you see about the car is the Exterior and who really wants a dirty exterior.
+                        We take multiple steps to ensure and clean and deep shine to all of our clients vehicles. We also offer
+                        Bug remover, tire shine, and headlight restorations
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="interior.jpg" alt="Interior Detailing">
+                    </div>
+                    <div class="service-icon">💧</div>
+                    <h3>Interior Detail</h3>
+                    <p>Most of the time that you drive your car you spend inside it so why not get it detailed.
+                        We offer many choices for interior detailing such as stain removal, plastic/vinal UV protection,
+                        and cabin air refresher.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="cermaic.jpg" alt="Ceramic Coating">
+                    </div>
+                    <div class="service-icon">🛡️</div>
+                    <h3>Paint Protection/Correction</h3>
+                    <p>We offer several services that will help protect your paint from the elements and daily driving.
+                        Such as ceramic coating, 1-2 step polishing, and PPF (Paint Protection Film).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <div class="divider"></div>
+
+                <div class="about-text">
+                    <p>Exclusive Detailing is a proud locally owned and operated business serving the Bakersfield, California community. 
+                    We're passionate about automotive care and dedicated to providing our neighbors with the highest quality detailing services available.</p>
+
+                    <p>As a local business, we understand the unique needs of Bakersfield drivers. 
+                    From the valley heat to the dust and road conditions, we've tailored our services to protect and restore vehicles in our climate. 
+                    Our team takes pride in being part of this community and treating every customer's vehicle with the same care we'd give our own.</p>
+
+                    <p>When you choose Exclusive Detailing, you're not just getting exceptional service—you're supporting a local family business committed to excellence, 
+                    integrity, and keeping Bakersfield's vehicles looking their absolute best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="process-grid">
+                <div class="process-content">
+                    <h2>Meticulous Process</h2>
+                    <p class="process-intro">Before we even start detailing our clients vehicle receives a multi-stage inspection 
+                        along with a meticulous survay with our clients to ensure every expectation they have is met. 
+                        We use professional-grade products and techniques refined over years of experience 
+                    to provide the best wash and shine in all of kern county that leaves all of our clients 
+                with smiles on their faces.</p>
+                </div>
+
+                <div class="process-image">
+                    <img src="https://images.unsplash.com/photo-1656077884475-02204aa2f16a?w=1000" alt="Detailing Process">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="booking-header">
+                <h2>Book Your Appointment</h2>
+                <p>Choose between mobile detailing at your location or drop-off service at our Bakersfield facility.</p>
+            </div>
+
+            <form id="bookingForm" class="booking-form">
+                <!-- Service Type Selection -->
+
+                <!-- Personal Information -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Full Name *</label>
+                        <input type="text" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" name="email" class="form-input" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Phone Number *</label>
+                        <input type="tel" name="phone" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Vehicle Type *</label>
+                        <select name="vehicleType" class="form-input" required>
+                            <option value="">Select vehicle type</option>
+                            <option value="sedan">Sedan</option>
+                            <option value="suv">SUV</option>
+                            <option value="truck">Truck</option>
+                            <option value="coupe">Coupe</option>
+                            <option value="van">Van</option>
+                            <option value="luxury">Luxury Vehicle</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Date and Time -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">📅 Preferred Date *</label>
+                        <input type="date" name="date" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">🕐 Preferred Time *</label>
+                        <select name="time" class="form-input" required>
+                            <option value="">Select time</option>
+                            <option value="8am">8:00 AM</option>
+                            <option value="9am">9:00 AM</option>
+                            <option value="10am">10:00 AM</option>
+                            <option value="11am">11:00 AM</option>
+                            <option value="12pm">12:00 PM</option>
+                            <option value="1pm">1:00 PM</option>
+                            <option value="2pm">2:00 PM</option>
+                            <option value="3pm">3:00 PM</option>
+                            <option value="4pm">4:00 PM</option>
+                            <option value="5pm">5:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Additional Information -->
+                <div class="form-group-full">
+                    <label class="form-label">Additional Information</label>
+                    <textarea name="message" class="form-textarea" rows="4" placeholder="Tell us about any specific concerns or requests..."></textarea>
+                </div>
+
+                <!-- Status Message -->
+                <div id="statusMessage" class="status-message" style="display: none;"></div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                    Submit Booking Request
+                </button>
+
+                <p class="form-note">We'll contact you within 24 hours to confirm your appointment</p>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="booking-contact">
+                <h3>Have Questions?</h3>
+                <p>Feel free to call us directly to discuss your detailing needs.</p>
+                <a href="tel:661-934-9484" class="contact-phone">(661) 934-9484</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to restore your vehicle?</h2>
+                <p>Schedule your appointment today and experience the difference precision makes.</p>
+                
+                <div class="cta-buttons">
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                    <a href="tel:661-934-9484" class="phone-btn">
+                        <span>📞</span>
+                        <span>(661) 934-9484</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-links">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Base.js"></script>
+</body>
+</html>
