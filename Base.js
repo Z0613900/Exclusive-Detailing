@@ -34,7 +34,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
     };
     
     // Disable submit button
-    submitBtn.disabled = true;
+    submitBtn.enable = true;
     submitBtn.textContent = 'Submitting...';
     
     try {
